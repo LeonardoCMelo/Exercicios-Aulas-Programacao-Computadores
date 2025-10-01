@@ -1,4 +1,4 @@
-def exercicio_5_5_2(n):
+def exercicio_5_6_2(n):
     if n<0:
         result = None
     else:
@@ -8,4 +8,4 @@ def exercicio_5_5_2(n):
             result += (-1 if i%2 == 0 else 1)*(4/((term)*(term+1)*(term+2)))
     return result
 
-print(exercicio_5_5_2(400))
+print(exercicio_5_6_2(400))
